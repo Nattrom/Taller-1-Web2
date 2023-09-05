@@ -1,0 +1,13 @@
+.count{
+  font-weight: bold;
+}
+
+.zoom-on-hover:hover {
+  transform: scale(1.05); /* Ajusta el valor según tus preferencias */
+  transition: transform 0.3s ease; /* Añade una transición suave para el efecto */
+}
+
+.zoom-on-hover:not(:hover) {
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
